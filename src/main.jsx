@@ -12,10 +12,9 @@ const router = createBrowserRouter([
   },
   {
     path: "/charts",
-    element: <Charts/> ,
-  }
+    element:<Charts/>,
+  },
 ]);
-
 
 createRoot(document.getElementById('root')).render(
  <RouterProvider router={router} />,
