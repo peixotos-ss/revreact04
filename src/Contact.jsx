@@ -27,7 +27,7 @@ function Contact(){
 
             <div className={s.wrapInputs}>
                 <label htmlFor='assunto'>Assunto</label>
-                <input className={s.textAreaData} type="text" placeholder='INsira o assunto' value={assunto} onChange={(e) => setNome(e.target.value)}/>
+                <input className={s.textAreaData} type="text" placeholder='INsira o assunto' value={assunto} onChange={(e) => setAssunto(e.target.value)}/>
             </div>
             <button className={s.btn} onClick={enviar}>ENVIAR</button>
         </div>
