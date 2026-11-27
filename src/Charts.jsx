@@ -1,30 +1,32 @@
 import { useState } from 'react'
 import s from './Charts.module.css'
-import { Menu } from './components/menu'
-import { GBarra } from './components/barChart'
-import { GLinha } from './components/lineChart'
-import { GPie } from './components/pieChart'
+import  { Menu } from './components/menu'
+import  { GBarra } from './components/barChart'
+import  { GPizza } from './components/pizzaChar'
+import  { GLinha } from './components/lineChart'
 
+function Charts(){
 
-
-function Charts() {
     const [show, setShow] = useState("")
 
-    return (
+    return(
         <>
-            <Menu />
+            <Menu/>
+
             <div className={s.wrapCharts}>
                 <div className={s.wrapBtns}>
-                    <button className={s.btn} onClick={() => setShow("barra")}>Barra</button>
-                    <button className={s.btn} onClick={() => setShow("pizza")}>Pizza</button>
-                    <button className={s.btn} onClick={() => setShow("linha")}>Linha</button>
+                    <button className={s.btn} onClick={() => setShow("BAR")}>BAR</button>
+                    <button className={s.btn} onClick={() => setShow("PIZZA")}>PIZZA</button>
+                    <button className={s.btn} onClick={() => setShow("LINE")}>LINE</button>
                 </div>
-                    {show === "barra" && <GBarra/>}
-                    {show === "pizza" && <GPie/>}
-                    {show === "linha" && <GLinha/>}
-            </div>
+                
+                {show === "BAR" && <GBarra/>}
+                {show === "PIZZA" && <GPizza/> }
+                {show === "LINE" && <GLinha/>}
 
+            </div>
         </>
+        
     )
 }
 

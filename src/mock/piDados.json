@@ -1,0 +1,7 @@
+[
+  { "label": "JAN", "x": 200},
+  { "label": "FEV", "x": 100},
+  { "label": "MAR", "x": 600},
+  { "label": "ABR", "x": 800},
+  { "label": "MAI", "x": 30}
+]

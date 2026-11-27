@@ -1,0 +1,20 @@
+[
+    {
+        "id":"01",
+        "imagem":"/bannerImg.jpg",
+        "titulo": "Titulo 01",
+        "texto": "texto pra card 01"
+    },
+    {
+        "id":"02",
+        "imagem":"/bannerImg.jpg",
+        "titulo": "Titulo 02",
+        "texto": "texto pra card 02"
+    },
+    {
+        "id":"03",
+        "imagem":"/bannerImg.jpg",
+        "titulo": "Titulo 03",
+        "texto": "texto pra card 03"
+    }
+]

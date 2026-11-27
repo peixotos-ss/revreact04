@@ -1,10 +1,11 @@
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
-import barDados from '../mock/barDados.json'
+import barDados from '../mock/barDadoa.json'
 
 export const GBarra = () => {
 
-    return (
-        <BarChart
+
+    return(
+         <BarChart
             style={{ width: '100%', maxWidth: '1200px', maxHeight: '70vh', aspectRatio: 1.618 }}
             responsive
             data={barDados}
@@ -14,14 +15,14 @@ export const GBarra = () => {
                 left: 0,
                 bottom: 5,
             }}
-        >
+            >
             <CartesianGrid />
             <XAxis dataKey="label" />
             <YAxis width="auto" />
             <Tooltip />
             <Legend />
-            <Bar fill='orange' dataKey="Meta" radius={[10, 10, 0, 0]} />
-            <Bar fill='blue' dataKey="Atingido" radius={[10, 10, 0, 0]} />
+            <Bar fill='orange' dataKey="Metas" radius={[10, 10, 0, 0]} />
+            <Bar fill='blue' dataKey="Atingidos" radius={[10, 10, 0, 0]} />
         </BarChart>
     )
 }

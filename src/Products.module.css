@@ -1,0 +1,10 @@
+.wrapProducts{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    min-height: 100vh;
+    height: auto;
+    padding: 50px;
+}

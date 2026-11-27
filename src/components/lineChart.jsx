@@ -11,12 +11,11 @@ import {
 import lineDados from '../mock/lineDados.json'
 
 export const GLinha = () => {
-   
     return (
         <AreaChart
             style={{
                 width: '100%',
-                maxWidth: '1200px',
+                maxWidth: '700px',
                 maxHeight: '70vh',
                 aspectRatio: 1.618
             }}

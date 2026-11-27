@@ -1,0 +1,39 @@
+.card{
+    box-shadow: var(--sombra);
+    width: 300px;
+    height: 400px;
+    transition: all 200ms ease-in-out;
+    border: 1px solid var(--sombra);
+    border-radius: 10px;
+}
+
+.card:hover{
+    box-shadow: var(--sombra);
+}
+
+.wrapImg{
+    overflow: hidden;
+}
+
+.imagem{
+    width: 100%;
+    transition: all 200ms ease-in-out;
+    filter: grayscale(1);
+}
+
+.card:hover .imagem{
+    transform: scale(1.2);
+    filter: grayscale(0);
+}
+
+.wrapCardTexts{
+    padding: 20px;
+}
+
+.cardTitle{
+    font-size: 36px;
+}
+
+.cardText{
+    font-size: 22px;
+}
