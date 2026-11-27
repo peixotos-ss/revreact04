@@ -180,6 +180,11 @@
 
 .mapa2 {
   width: 100%;
+  min-height: 80vh;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
